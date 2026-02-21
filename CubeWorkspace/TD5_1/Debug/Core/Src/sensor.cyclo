@@ -1,0 +1,6 @@
+../Core/Src/sensor.c:14:6:init_system	2
+../Core/Src/sensor.c:23:6:display_system	3
+../Core/Src/sensor.c:35:6:read_sensors	2
+../Core/Src/sensor.c:41:6:check_threshold	3
+../Core/Src/sensor.c:56:6:setup	3
+../Core/Src/sensor.c:67:6:loop	3

@@ -1,0 +1,4 @@
+../Core/Src/min_sort.c:14:5:getMinPosition	32	static
+../Core/Src/min_sort.c:29:6:displayArray	24	static
+../Core/Src/min_sort.c:38:6:sortArray	96	static
+../Core/Src/min_sort.c:49:6:loop	80	static

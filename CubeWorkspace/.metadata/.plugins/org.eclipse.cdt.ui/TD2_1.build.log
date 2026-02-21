@@ -1,0 +1,10 @@
+13:14:13 **** Build of configuration Debug for project TD2_1 ****
+make -j16 all 
+arm-none-eabi-size  TD2_1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16020	    104	   2040	  18164	   46f4	TD2_1.elf
+Finished building: default.size.stdout
+ 
+
+13:14:14 Build Finished. 0 errors, 0 warnings. (took 1s.49ms)
+

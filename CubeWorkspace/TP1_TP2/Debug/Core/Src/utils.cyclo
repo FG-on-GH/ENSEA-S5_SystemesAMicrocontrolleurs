@@ -1,0 +1,13 @@
+../Core/Src/utils.c:25:5:fillBuffer	5
+../Core/Src/utils.c:58:5:isGPGGA	3
+../Core/Src/utils.c:70:5:extractChecksum	2
+../Core/Src/utils.c:77:5:calculateChecksum	2
+../Core/Src/utils.c:87:5:checkFrame	3
+../Core/Src/utils.c:102:5:find_coma	4
+../Core/Src/utils.c:113:7:getLatitude	2
+../Core/Src/utils.c:136:7:getLongitude	2
+../Core/Src/utils.c:181:7:norme	1
+../Core/Src/utils.c:193:5:getMinIndex	3
+../Core/Src/utils.c:203:8:findNearest	2
+../Core/Src/utils.c:217:6:setup	1
+../Core/Src/utils.c:228:6:loop	2

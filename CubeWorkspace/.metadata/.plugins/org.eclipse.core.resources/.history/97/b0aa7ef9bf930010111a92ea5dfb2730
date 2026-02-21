@@ -1,0 +1,18 @@
+/*
+ * utils.c
+ *
+ *  Created on: Sep 17, 2025
+ *      Author: FG
+ */
+
+
+#include <stm32l4xx_hal.h>
+#include "utils.h"
+
+void setup(){
+	// Insert the setup code here, it will run once.
+}
+
+void loop(){
+	// This code will run indefinitely.
+}

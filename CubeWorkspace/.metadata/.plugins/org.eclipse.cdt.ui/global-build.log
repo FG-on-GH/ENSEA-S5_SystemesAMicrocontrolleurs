@@ -1,0 +1,1238 @@
+14:16:57 **** Clean-only build of configuration Debug for project TP3 ****
+make -j16 clean 
+rm -rf ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.su ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.cyclo ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.d ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o ./Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.su
+rm -rf ./Core/Startup/startup_stm32l476rgtx.d ./Core/Startup/startup_stm32l476rgtx.o
+rm -rf ./Core/Src/adc.cyclo ./Core/Src/adc.d ./Core/Src/adc.o ./Core/Src/adc.su ./Core/Src/button.cyclo ./Core/Src/button.d ./Core/Src/button.o ./Core/Src/button.su ./Core/Src/fonts.cyclo ./Core/Src/fonts.d ./Core/Src/fonts.o ./Core/Src/fonts.su ./Core/Src/gpio.cyclo ./Core/Src/gpio.d ./Core/Src/gpio.o ./Core/Src/gpio.su ./Core/Src/i2c.cyclo ./Core/Src/i2c.d ./Core/Src/i2c.o ./Core/Src/i2c.su ./Core/Src/led.cyclo ./Core/Src/led.d ./Core/Src/led.o ./Core/Src/led.su ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/spi.cyclo ./Core/Src/spi.d ./Core/Src/spi.o ./Core/Src/spi.su ./Core/Src/ssd1315.cyclo ./Core/Src/ssd1315.d ./Core/Src/ssd1315.o ./Core/Src/ssd1315.su ./Core/Src/ssd1315_physical_layer_i2c.cyclo ./Core/Src/ssd1315_physical_layer_i2c.d ./Core/Src/ssd1315_physical_layer_i2c.o ./Core/Src/ssd1315_physical_layer_i2c.su ./Core/Src/stm32l4xx_hal_msp.cyclo ./Core/Src/stm32l4xx_hal_msp.d ./Core/Src/stm32l4xx_hal_msp.o ./Core/Src/stm32l4xx_hal_msp.su ./Core/Src/stm32l4xx_hal_timebase_tim.cyclo ./Core/Src/stm32l4xx_hal_timebase_tim.d ./Core/Src/stm32l4xx_hal_timebase_tim.o ./Core/Src/stm32l4xx_hal_timebase_tim.su ./Core/Src/stm32l4xx_it.cyclo ./Core/Src/stm32l4xx_it.d ./Core/Src/stm32l4xx_it.o ./Core/Src/stm32l4xx_it.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32l4xx.cyclo ./Core/Src/system_stm32l4xx.d ./Core/Src/system_stm32l4xx.o ./Core/Src/system_stm32l4xx.su ./Core/Src/task.cyclo ./Core/Src/task.d ./Core/Src/task.o ./Core/Src/task.su ./Core/Src/tim.cyclo ./Core/Src/tim.d ./Core/Src/tim.o ./Core/Src/tim.su ./Core/Src/usart.cyclo ./Core/Src/usart.d ./Core/Src/usart.o ./Core/Src/usart.su
+rm -rf TP3.elf TP3.list TP3.map default.size.stdout
+ 
+15:12:38 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/adc.d" -MT"Core/Src/adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/adc.o"
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+arm-none-eabi-gcc "../Core/Src/fonts.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/fonts.d" -MT"Core/Src/fonts.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/fonts.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/i2c.d" -MT"Core/Src/i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/i2c.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/spi.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/spi.d" -MT"Core/Src/spi.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/spi.o"
+arm-none-eabi-gcc "../Core/Src/ssd1315.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ssd1315.d" -MT"Core/Src/ssd1315.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ssd1315.o"
+arm-none-eabi-gcc "../Core/Src/ssd1315_physical_layer_i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ssd1315_physical_layer_i2c.d" -MT"Core/Src/ssd1315_physical_layer_i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ssd1315_physical_layer_i2c.o"
+In file included from ../Core/Src/encoder.c:9:
+../Core/Inc/encoder.h:12:9: error: unknown type name 'TIM_HandleTypeDef'
+   12 |         TIM_HandleTypeDef * htim;
+      |         ^~~~~~~~~~~~~~~~~
+../Core/Inc/encoder.h:13:9: error: unknown type name 'int32_t'
+   13 |         int32_t max_value;
+      |         ^~~~~~~
+../Core/Inc/encoder.h:14:9: error: unknown type name 'int32_t'
+   14 |         int32_t min_value;
+      |         ^~~~~~~
+../Core/Inc/encoder.h:17:19: error: unknown type name 'TIM_HandleTypeDef'
+   17 | void encoder_init(TIM_HandleTypeDef * htim_param, int32_t min, int32_t max);
+      |                   ^~~~~~~~~~~~~~~~~
+../Core/Inc/encoder.h:17:51: error: unknown type name 'int32_t'
+   17 | void encoder_init(TIM_HandleTypeDef * htim_param, int32_t min, int32_t max);
+      |                                                   ^~~~~~~
+../Core/Inc/encoder.h:1:1: note: 'int32_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+  +++ |+#include <stdint.h>
+    1 | /*
+../Core/Inc/encoder.h:17:64: error: unknown type name 'int32_t'
+   17 | void encoder_init(TIM_HandleTypeDef * htim_param, int32_t min, int32_t max);
+      |                                                                ^~~~~~~
+../Core/Inc/encoder.h:17:64: note: 'int32_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Inc/encoder.h:18:1: error: unknown type name 'int32_t'
+   18 | int32_t encoder_read();
+      | ^~~~~~~
+../Core/Inc/encoder.h:18:1: note: 'int32_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/encoder.c:13:19: error: unknown type name 'TIM_HandleTypeDef'
+   13 | void encoder_init(TIM_HandleTypeDef * htim_param, int32_t min, int32_t max){
+      |                   ^~~~~~~~~~~~~~~~~
+../Core/Src/encoder.c:13:51: error: unknown type name 'int32_t'
+   13 | void encoder_init(TIM_HandleTypeDef * htim_param, int32_t min, int32_t max){
+      |                                                   ^~~~~~~
+../Core/Src/encoder.c:10:1: note: 'int32_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+    9 | #include "encoder.h"
+  +++ |+#include <stdint.h>
+   10 | 
+../Core/Src/encoder.c:13:64: error: unknown type name 'int32_t'
+   13 | void encoder_init(TIM_HandleTypeDef * htim_param, int32_t min, int32_t max){
+      |                                                                ^~~~~~~
+../Core/Src/encoder.c:13:64: note: 'int32_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/encoder.c:21:1: error: unknown type name 'int32_t'
+   21 | int32_t encoder_read(){
+      | ^~~~~~~
+../Core/Src/encoder.c:21:1: note: 'int32_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/encoder.c: In function 'encoder_read':
+../Core/Src/encoder.c:22:17: error: 'int32_t' undeclared (first use in this function)
+   22 |         return (int32_t)(encoder.htim.Instance->CNT);
+      |                 ^~~~~~~
+../Core/Src/encoder.c:22:17: note: 'int32_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/encoder.c:22:17: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/encoder.c:22:38: error: request for member 'Instance' in something not a structure or union
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l4xx_hal_msp.d" -MT"Core/Src/stm32l4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_hal_msp.o"
+   22 |         return (int32_t)(encoder.htim.Instance->CNT);
+      |                                      ^
+../Core/Src/encoder.c:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+   23 | }
+      | ^
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_hal_timebase_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l4xx_hal_timebase_tim.d" -MT"Core/Src/stm32l4xx_hal_timebase_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_hal_timebase_tim.o"
+make: *** [Core/Src/subdir.mk:67: Core/Src/encoder.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:116:30: error: expected ';' before 'while'
+  116 |   encoder_init(&htim2, -8, 8)
+      |                              ^
+      |                              ;
+......
+  121 |   while (1)
+      |   ~~~~~                       
+make: *** [Core/Src/subdir.mk:67: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:13:25 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l4xx_it.d" -MT"Core/Src/stm32l4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32l4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32l4xx.d" -MT"Core/Src/system_stm32l4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32l4xx.o"
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usart.o"
+../Core/Src/encoder.c: In function 'encoder_init':
+../Core/Src/encoder.c:14:26: error: 'htimparam' undeclared (first use in this function); did you mean 'htim_param'?
+   14 |           encoder.htim = htimparam;
+      |                          ^~~~~~~~~
+      |                          htim_param
+../Core/Src/encoder.c:14:26: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/encoder.c:15:19: error: 'ENCODER' {aka 'struct encoder'} has no member named 'minvalue'; did you mean 'min_value'?
+   15 |           encoder.minvalue = min;
+      |                   ^~~~~~~~
+      |                   min_value
+../Core/Src/encoder.c:16:19: error: 'ENCODER' {aka 'struct encoder'} has no member named 'maxvalue'; did you mean 'max_value'?
+   16 |           encoder.maxvalue = max;
+      |                   ^~~~~~~~
+      |                   max_value
+../Core/Src/encoder.c:17:33: warning: passing argument 1 of 'HAL_TIM_Encoder_Start' from incompatible pointer type [-Wincompatible-pointer-types]
+   17 |           HAL_TIM_Encoder_Start(&encoder.htim, TIM_CHANNEL_ALL);
+      |                                 ^~~~~~~~~~~~~
+      |                                 |
+      |                                 TIM_HandleTypeDef **
+In file included from ../Core/Inc/stm32l4xx_hal_conf.h:442,
+                 from ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29,
+                 from ../Core/Inc/encoder.h:11,
+                 from ../Core/Src/encoder.c:9:
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h:2244:60: note: expected 'TIM_HandleTypeDef *' but argument is of type 'TIM_HandleTypeDef **'
+ 2244 | HAL_StatusTypeDef HAL_TIM_Encoder_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      |                                         ~~~~~~~~~~~~~~~~~~~^~~~
+../Core/Src/encoder.c: In function 'encoder_read':
+../Core/Src/encoder.c:22:38: error: 'encoder.htim' is a pointer; did you mean to use '->'?
+   22 |         return (int32_t)(encoder.htim.Instance->CNT);
+      |                                      ^
+      |                                      ->
+../Core/Src/encoder.c:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+   23 | }
+      | ^
+make: *** [Core/Src/subdir.mk:67: Core/Src/encoder.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:116:30: error: expected ';' before 'while'
+  116 |   encoder_init(&htim2, -8, 8)
+      |                              ^
+      |                              ;
+......
+  121 |   while (1)
+      |   ~~~~~                       
+make: *** [Core/Src/subdir.mk:67: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:14:01 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/encoder.c: In function 'encoder_init':
+../Core/Src/encoder.c:17:33: warning: passing argument 1 of 'HAL_TIM_Encoder_Start' from incompatible pointer type [-Wincompatible-pointer-types]
+   17 |           HAL_TIM_Encoder_Start(&encoder.htim, TIM_CHANNEL_ALL);
+      |                                 ^~~~~~~~~~~~~
+      |                                 |
+      |                                 TIM_HandleTypeDef **
+In file included from ../Core/Inc/stm32l4xx_hal_conf.h:442,
+                 from ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29,
+                 from ../Core/Inc/encoder.h:11,
+                 from ../Core/Src/encoder.c:9:
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h:2244:60: note: expected 'TIM_HandleTypeDef *' but argument is of type 'TIM_HandleTypeDef **'
+ 2244 | HAL_StatusTypeDef HAL_TIM_Encoder_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      |                                         ~~~~~~~~~~~~~~~~~~~^~~~
+../Core/Src/encoder.c: In function 'encoder_read':
+../Core/Src/encoder.c:22:38: error: 'encoder.htim' is a pointer; did you mean to use '->'?
+   22 |         return (int32_t)(encoder.htim.Instance->CNT);
+      |                                      ^
+      |                                      ->
+../Core/Src/encoder.c:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+   23 | }
+      | ^
+make: *** [Core/Src/subdir.mk:67: Core/Src/encoder.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:116:30: error: expected ';' before 'while'
+  116 |   encoder_init(&htim2, -8, 8)
+      |                              ^
+      |                              ;
+......
+  121 |   while (1)
+      |   ~~~~~                       
+make: *** [Core/Src/subdir.mk:67: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:14:50 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/encoder.c: In function 'encoder_read':
+../Core/Src/encoder.c:22:38: error: 'encoder.htim' is a pointer; did you mean to use '->'?
+   22 |         return (int32_t)(encoder.htim.Instance->CNT);
+      |                                      ^
+      |                                      ->
+../Core/Src/encoder.c:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+   23 | }
+      | ^
+make: *** [Core/Src/subdir.mk:67: Core/Src/encoder.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:116:30: error: expected ';' before 'while'
+  116 |   encoder_init(&htim2, -8, 8)
+      |                              ^
+      |                              ;
+......
+  121 |   while (1)
+      |   ~~~~~                       
+make: *** [Core/Src/subdir.mk:67: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:15:08 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:116:30: error: expected ';' before 'while'
+  116 |   encoder_init(&htim2, -8, 8)
+      |                              ^
+      |                              ;
+......
+  121 |   while (1)
+      |   ~~~~~                       
+make: *** [Core/Src/subdir.mk:67: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:15:27 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP4.elf
+ 
+arm-none-eabi-size  TP4.elf 
+arm-none-eabi-objdump -h -S TP4.elf  > "TP4.list"
+   text	   data	    bss	    dec	    hex	filename
+  31800	    104	   2784	  34688	   8780	TP4.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP4.list
+ 
+15:16:55 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:126:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int32_t' {aka 'long int'} [-Wformat=]
+  126 |               printf("%d\r\n", pos);
+      |                       ~^       ~~~
+      |                        |       |
+      |                        int     int32_t {aka long int}
+      |                       %ld
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP4.elf
+ 
+arm-none-eabi-size  TP4.elf 
+arm-none-eabi-objdump -h -S TP4.elf  > "TP4.list"
+   text	   data	    bss	    dec	    hex	filename
+  31808	    104	   2784	  34696	   8788	TP4.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP4.list
+ 
+15:17:38 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:126:25: error: expected ')' before 'PRId32'
+  126 |               printf("%" PRId32 "\r\n", pos);
+      |                     ~   ^~~~~~~
+      |                         )
+../Core/Src/main.c:34:1: note: 'PRId32' is defined in header '<inttypes.h>'; did you forget to '#include <inttypes.h>'?
+   33 | #include "encoder.h"
+  +++ |+#include <inttypes.h>
+   34 | /* USER CODE END Includes */
+../Core/Src/main.c:126:23: warning: spurious trailing '%' in format [-Wformat=]
+  126 |               printf("%" PRId32 "\r\n", pos);
+      |                       ^
+make: *** [Core/Src/subdir.mk:67: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:18:08 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP4.elf
+ 
+arm-none-eabi-size  TP4.elf 
+arm-none-eabi-objdump -h -S TP4.elf  > "TP4.list"
+   text	   data	    bss	    dec	    hex	filename
+  31808	    104	   2784	  34696	   8788	TP4.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP4.list
+ 
+15:22:37 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:132:50: error: 'Font11x18' undeclared (first use in this function); did you mean 'Font_11x18'?
+  132 |               ssd1315_Draw_String(0, 0, buffer, &Font11x18)
+      |                                                  ^~~~~~~~~
+      |                                                  Font_11x18
+../Core/Src/main.c:132:50: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:132:60: error: expected ';' before 'last'
+  132 |               ssd1315_Draw_String(0, 0, buffer, &Font11x18)
+      |                                                            ^
+      |                                                            ;
+  133 |               last = pos;
+      |               ~~~~                                          
+make: *** [Core/Src/subdir.mk:67: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:23:04 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:132:50: error: 'Font11x18' undeclared (first use in this function); did you mean 'Font_11x18'?
+  132 |               ssd1315_Draw_String(0, 0, buffer, &Font11x18);
+      |                                                  ^~~~~~~~~
+      |                                                  Font_11x18
+../Core/Src/main.c:132:50: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:67: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:23:17 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP4.elf
+ 
+arm-none-eabi-size  TP4.elf 
+arm-none-eabi-objdump -h -S TP4.elf  > "TP4.list"
+   text	   data	    bss	    dec	    hex	filename
+  39068	    112	   3816	  42996	   a7f4	TP4.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP4.list
+ 
+15:23:58 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP4.elf
+ 
+arm-none-eabi-size  TP4.elf 
+arm-none-eabi-objdump -h -S TP4.elf  > "TP4.list"
+   text	   data	    bss	    dec	    hex	filename
+  39072	    112	   3816	  43000	   a7f8	TP4.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP4.list
+ 
+15:24:49 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP4.elf
+ 
+arm-none-eabi-size  TP4.elf 
+arm-none-eabi-objdump -h -S TP4.elf  > "TP4.list"
+   text	   data	    bss	    dec	    hex	filename
+  39068	    112	   3816	  42996	   a7f4	TP4.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP4.list
+ 
+15:48:57 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:112:3: warning: implicit declaration of function 'setup' [-Wimplicit-function-declaration]
+  112 |   setup();
+      |   ^~~~~
+../Core/Src/main.c:119:11: warning: implicit declaration of function 'loop' [-Wimplicit-function-declaration]
+  119 |           loop();
+      |           ^~~~
+../Core/Src/encoder.c: In function 'setup':
+../Core/Src/encoder.c:35:23: error: 'htim2' undeclared (first use in this function)
+   35 |         encoder_init(&htim2, SATURE_MAX, SATURE_MIN);
+      |                       ^~~~~
+../Core/Src/encoder.c:35:23: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:67: Core/Src/encoder.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:49:28 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/encoder.c: In function 'setup':
+../Core/Src/encoder.c:35:23: error: 'htim2' undeclared (first use in this function)
+   35 |         encoder_init(&htim2, SATURE_MAX, SATURE_MIN);
+      |                       ^~~~~
+../Core/Src/encoder.c:35:23: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:67: Core/Src/encoder.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:49:57 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP4.elf
+ 
+arm-none-eabi-size  TP4.elf 
+arm-none-eabi-objdump -h -S TP4.elf  > "TP4.list"
+   text	   data	    bss	    dec	    hex	filename
+  39128	    112	   3816	  43056	   a830	TP4.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP4.list
+ 
+15:50:36 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP4.elf
+ 
+arm-none-eabi-size  TP4.elf 
+arm-none-eabi-objdump -h -S TP4.elf  > "TP4.list"
+   text	   data	    bss	    dec	    hex	filename
+  39128	    112	   3816	  43056	   a830	TP4.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP4.list
+ 
+16:07:06 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP4.elf
+ 
+arm-none-eabi-size  TP4.elf 
+arm-none-eabi-objdump -h -S TP4.elf  > "TP4.list"
+   text	   data	    bss	    dec	    hex	filename
+  39148	    112	   3816	  43076	   a844	TP4.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP4.list
+ 
+16:56:29 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/adc.d" -MT"Core/Src/adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/adc.o"
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+arm-none-eabi-gcc "../Core/Src/fonts.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/fonts.d" -MT"Core/Src/fonts.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/fonts.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/i2c.d" -MT"Core/Src/i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/i2c.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/spi.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/spi.d" -MT"Core/Src/spi.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/spi.o"
+arm-none-eabi-gcc "../Core/Src/ssd1315.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ssd1315.d" -MT"Core/Src/ssd1315.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ssd1315.o"
+arm-none-eabi-gcc "../Core/Src/ssd1315_physical_layer_i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ssd1315_physical_layer_i2c.d" -MT"Core/Src/ssd1315_physical_layer_i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ssd1315_physical_layer_i2c.o"
+arm-none-eabi-gcc "../Core/Src/stepperMotor.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stepperMotor.d" -MT"Core/Src/stepperMotor.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stepperMotor.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l4xx_hal_msp.d" -MT"Core/Src/stm32l4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_hal_timebase_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l4xx_hal_timebase_tim.d" -MT"Core/Src/stm32l4xx_hal_timebase_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_hal_timebase_tim.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l4xx_it.d" -MT"Core/Src/stm32l4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32l4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32l4xx.d" -MT"Core/Src/system_stm32l4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32l4xx.o"
+../Core/Src/stepperMotor.c: In function 'launch_stepper':
+../Core/Src/stepperMotor.c:64:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   64 |         if(speed=0){
+      |            ^~~~~
+../Core/Src/stepperMotor.c:65:17: error: 'stepper_motor' undeclared (first use in this function); did you mean 'steppermotor'?
+   65 |                 stepper_motor.htim_pwm->Instance->CCR1=0;
+      |                 ^~~~~~~~~~~~~
+      |                 steppermotor
+../Core/Src/stepperMotor.c:65:17: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:70: Core/Src/stepperMotor.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+16:57:32 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/stepperMotor.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stepperMotor.d" -MT"Core/Src/stepperMotor.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stepperMotor.o"
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usart.o"
+../Core/Src/stepperMotor.c: In function 'launch_stepper':
+../Core/Src/stepperMotor.c:78:33: error: 'stepper_motor' undeclared (first use in this function); did you mean 'steppermotor'?
+   78 |                                 stepper_motor.gpio_direction,
+      |                                 ^~~~~~~~~~~~~
+      |                                 steppermotor
+../Core/Src/stepperMotor.c:78:33: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:70: Core/Src/stepperMotor.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+16:57:47 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/stepperMotor.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stepperMotor.d" -MT"Core/Src/stepperMotor.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stepperMotor.o"
+../Core/Src/stepperMotor.c: In function 'launch_stepper':
+../Core/Src/stepperMotor.c:86:35: error: 'stepper_motor' undeclared (first use in this function); did you mean 'steppermotor'?
+   86 |                 HAL_GPIO_WritePin(stepper_motor.gpio_enable, steppermotor.gpio_enable_pin,0);
+      |                                   ^~~~~~~~~~~~~
+      |                                   steppermotor
+../Core/Src/stepperMotor.c:86:35: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:70: Core/Src/stepperMotor.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+16:58:03 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/stepperMotor.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stepperMotor.d" -MT"Core/Src/stepperMotor.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stepperMotor.o"
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP4.elf
+ 
+arm-none-eabi-size  TP4.elf 
+arm-none-eabi-objdump -h -S TP4.elf  > "TP4.list"
+   text	   data	    bss	    dec	    hex	filename
+  39148	    112	   3816	  43076	   a844	TP4.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP4.list
+ 
+17:03:24 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP4.elf
+ 
+arm-none-eabi-size  TP4.elf 
+arm-none-eabi-objdump -h -S TP4.elf  > "TP4.list"
+   text	   data	    bss	    dec	    hex	filename
+  40124	    144	   3864	  44132	   ac64	TP4.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP4.list
+ 
+17:04:08 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP4.elf
+ 
+arm-none-eabi-size  TP4.elf 
+arm-none-eabi-objdump -h -S TP4.elf  > "TP4.list"
+   text	   data	    bss	    dec	    hex	filename
+  40124	    144	   3864	  44132	   ac64	TP4.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP4.list
+ 
+17:28:59 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+arm-none-eabi-gcc "../Core/Src/stepperMotor.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stepperMotor.d" -MT"Core/Src/stepperMotor.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stepperMotor.o"
+../Core/Src/encoder.c: In function 'loop':
+../Core/Src/encoder.c:69:54: warning: implicit declaration of function 'speed' [-Wimplicit-function-declaration]
+   69 |                 snprintf(buffer, 16, "%1.1f tr/min", speed());
+      |                                                      ^~~~~
+../Core/Src/encoder.c:69:43: warning: format '%f' expects argument of type 'double', but argument 4 has type 'int' [-Wformat=]
+   69 |                 snprintf(buffer, 16, "%1.1f tr/min", speed());
+      |                                       ~~~~^          ~~~~~~~
+      |                                           |          |
+      |                                           double     int
+      |                                       %1.1d
+../Core/Src/encoder.c:67:38: warning: 'snprintf' output truncated before the last format character [-Wformat-truncation=]
+   67 |                 snprintf(buffer, 16, "Speed level = %" PRId32 " ", pos);
+      |                                      ^~~~~~~~~~~~~~~~~
+../Core/Src/encoder.c:67:17: note: 'snprintf' output between 17 and 27 bytes into a destination of size 16
+   67 |                 snprintf(buffer, 16, "Speed level = %" PRId32 " ", pos);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP4.elf
+ 
+arm-none-eabi-size  TP4.elf 
+arm-none-eabi-objdump -h -S TP4.elf  > "TP4.list"
+   text	   data	    bss	    dec	    hex	filename
+  49156	    508	   3864	  53528	   d118	TP4.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP4.list
+ 
+17:30:01 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+../Core/Src/encoder.c: In function 'loop':
+../Core/Src/encoder.c:69:53: warning: implicit declaration of function 'speed' [-Wimplicit-function-declaration]
+   69 |                 snprintf(buffer, 16, "%.2f tr/min", speed());
+      |                                                     ^~~~~
+../Core/Src/encoder.c:69:42: warning: format '%f' expects argument of type 'double', but argument 4 has type 'int' [-Wformat=]
+   69 |                 snprintf(buffer, 16, "%.2f tr/min", speed());
+      |                                       ~~~^          ~~~~~~~
+      |                                          |          |
+      |                                          double     int
+      |                                       %.2d
+../Core/Src/encoder.c:67:38: warning: 'snprintf' output truncated before the last format character [-Wformat-truncation=]
+   67 |                 snprintf(buffer, 16, "Speed level = %" PRId32 " ", pos);
+      |                                      ^~~~~~~~~~~~~~~~~
+../Core/Src/encoder.c:67:17: note: 'snprintf' output between 17 and 27 bytes into a destination of size 16
+   67 |                 snprintf(buffer, 16, "Speed level = %" PRId32 " ", pos);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP4.elf
+ 
+arm-none-eabi-size  TP4.elf 
+arm-none-eabi-objdump -h -S TP4.elf  > "TP4.list"
+   text	   data	    bss	    dec	    hex	filename
+  49156	    508	   3864	  53528	   d118	TP4.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP4.list
+ 
+17:30:23 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+../Core/Src/encoder.c: In function 'loop':
+../Core/Src/encoder.c:69:52: warning: implicit declaration of function 'speed' [-Wimplicit-function-declaration]
+   69 |                 snprintf(buffer, 16, "%2f tr/min", speed());
+      |                                                    ^~~~~
+../Core/Src/encoder.c:69:41: warning: format '%f' expects argument of type 'double', but argument 4 has type 'int' [-Wformat=]
+   69 |                 snprintf(buffer, 16, "%2f tr/min", speed());
+      |                                       ~~^          ~~~~~~~
+      |                                         |          |
+      |                                         double     int
+      |                                       %2d
+../Core/Src/encoder.c:67:38: warning: 'snprintf' output truncated before the last format character [-Wformat-truncation=]
+   67 |                 snprintf(buffer, 16, "Speed level = %" PRId32 " ", pos);
+      |                                      ^~~~~~~~~~~~~~~~~
+../Core/Src/encoder.c:67:17: note: 'snprintf' output between 17 and 27 bytes into a destination of size 16
+   67 |                 snprintf(buffer, 16, "Speed level = %" PRId32 " ", pos);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP4.elf
+ 
+arm-none-eabi-size  TP4.elf 
+arm-none-eabi-objdump -h -S TP4.elf  > "TP4.list"
+   text	   data	    bss	    dec	    hex	filename
+  49156	    508	   3864	  53528	   d118	TP4.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP4.list
+ 
+17:30:56 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/stepperMotor.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stepperMotor.d" -MT"Core/Src/stepperMotor.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stepperMotor.o"
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/encoder.o: in function `loop':
+C:/Users/franc/OneDrive - ENSEA/S5/Systèmes à Microcontrolleurs/STM Workspace/TP4/Debug/../Core/Src/encoder.c:69:(.text.loop+0x3a): undefined reference to `speed'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: TP4.elf] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+17:31:34 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+../Core/Src/encoder.c: In function 'loop':
+../Core/Src/encoder.c:69:52: warning: implicit declaration of function 'speed' [-Wimplicit-function-declaration]
+   69 |                 snprintf(buffer, 30, "%2f tr/min", speed());
+      |                                                    ^~~~~
+../Core/Src/encoder.c:69:41: warning: format '%f' expects argument of type 'double', but argument 4 has type 'int' [-Wformat=]
+   69 |                 snprintf(buffer, 30, "%2f tr/min", speed());
+      |                                       ~~^          ~~~~~~~
+      |                                         |          |
+      |                                         double     int
+      |                                       %2d
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/encoder.o: in function `loop':
+C:/Users/franc/OneDrive - ENSEA/S5/Systèmes à Microcontrolleurs/STM Workspace/TP4/Debug/../Core/Src/encoder.c:69:(.text.loop+0x3a): undefined reference to `speed'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: TP4.elf] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+17:31:42 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+../Core/Src/encoder.c: In function 'loop':
+../Core/Src/encoder.c:69:52: warning: implicit declaration of function 'rp' [-Wimplicit-function-declaration]
+   69 |                 snprintf(buffer, 30, "%2f tr/min", rp());
+      |                                                    ^~
+../Core/Src/encoder.c:69:41: warning: format '%f' expects argument of type 'double', but argument 4 has type 'int' [-Wformat=]
+   69 |                 snprintf(buffer, 30, "%2f tr/min", rp());
+      |                                       ~~^          ~~~~
+      |                                         |          |
+      |                                         double     int
+      |                                       %2d
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/encoder.o: in function `loop':
+C:/Users/franc/OneDrive - ENSEA/S5/Systèmes à Microcontrolleurs/STM Workspace/TP4/Debug/../Core/Src/encoder.c:69:(.text.loop+0x3a): undefined reference to `rp'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: TP4.elf] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+17:31:52 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+../Core/Src/encoder.c: In function 'loop':
+../Core/Src/encoder.c:69:52: warning: implicit declaration of function 'rpm' [-Wimplicit-function-declaration]
+   69 |                 snprintf(buffer, 30, "%2f tr/min", rpm());
+      |                                                    ^~~
+../Core/Src/encoder.c:69:41: warning: format '%f' expects argument of type 'double', but argument 4 has type 'int' [-Wformat=]
+   69 |                 snprintf(buffer, 30, "%2f tr/min", rpm());
+      |                                       ~~^          ~~~~~
+      |                                         |          |
+      |                                         double     int
+      |                                       %2d
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/encoder.o: in function `loop':
+C:/Users/franc/OneDrive - ENSEA/S5/Systèmes à Microcontrolleurs/STM Workspace/TP4/Debug/../Core/Src/encoder.c:69:(.text.loop+0x3a): undefined reference to `rpm'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: TP4.elf] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+17:32:27 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+arm-none-eabi-gcc "../Core/Src/stepperMotor.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stepperMotor.d" -MT"Core/Src/stepperMotor.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stepperMotor.o"
+../Core/Src/encoder.c: In function 'loop':
+../Core/Src/encoder.c:69:51: warning: implicit declaration of function 'rpm' [-Wimplicit-function-declaration]
+   69 |                 snprintf(buffer, 30, "%f tr/min", rpm());
+      |                                                   ^~~
+../Core/Src/encoder.c:69:40: warning: format '%f' expects argument of type 'double', but argument 4 has type 'int' [-Wformat=]
+   69 |                 snprintf(buffer, 30, "%f tr/min", rpm());
+      |                                       ~^          ~~~~~
+      |                                        |          |
+      |                                        double     int
+      |                                       %d
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/encoder.o: in function `loop':
+C:/Users/franc/OneDrive - ENSEA/S5/Systèmes à Microcontrolleurs/STM Workspace/TP4/Debug/../Core/Src/encoder.c:69:(.text.loop+0x3a): undefined reference to `rpm'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: TP4.elf] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+17:32:48 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP4.elf
+ 
+arm-none-eabi-size  TP4.elf 
+arm-none-eabi-objdump -h -S TP4.elf  > "TP4.list"
+   text	   data	    bss	    dec	    hex	filename
+  49172	    508	   3864	  53544	   d128	TP4.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP4.list
+ 
+17:33:19 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+arm-none-eabi-gcc -o "TP4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP4\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP4.elf
+ 
+arm-none-eabi-size  TP4.elf 
+arm-none-eabi-objdump -h -S TP4.elf  > "TP4.list"
+   text	   data	    bss	    dec	    hex	filename
+  49172	    508	   3864	  53544	   d128	TP4.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP4.list
+ 
+17:34:09 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+../Core/Src/encoder.c: In function 'loop':
+../Core/Src/encoder.c:67:26: error: 'buffer' undeclared (first use in this function); did you mean 'buffer1'?
+   67 |                 snprintf(buffer, 30, "Speed level = %" PRId32 " ", pos);
+      |                          ^~~~~~
+      |                          buffer1
+../Core/Src/encoder.c:67:26: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/encoder.c:70:22: warning: unused variable 'buffer2' [-Wunused-variable]
+   70 |                 char buffer2[30]={0};
+      |                      ^~~~~~~
+../Core/Src/encoder.c:66:22: warning: unused variable 'buffer1' [-Wunused-variable]
+   66 |                 char buffer1[30]={0};
+      |                      ^~~~~~~
+make: *** [Core/Src/subdir.mk:70: Core/Src/encoder.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+17:34:46 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+../Core/Src/encoder.c: In function 'loop':
+../Core/Src/encoder.c:69:26: error: 'buffer2' undeclared (first use in this function); did you mean 'buffer1'?
+   69 |                 snprintf(buffer2, 30, "%f tr/min", get_rpm());
+      |                          ^~~~~~~
+      |                          buffer1
+../Core/Src/encoder.c:69:26: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:70: Core/Src/encoder.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:06:05 **** Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32l476rgtx.d" -MT"Core/Startup/startup_stm32l476rgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32l476rgtx.o" "../Core/Startup/startup_stm32l476rgtx.s"
+arm-none-eabi-gcc "../Core/Src/adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/adc.d" -MT"Core/Src/adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/adc.o"
+arm-none-eabi-gcc "../Core/Src/bmm150TP.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/bmm150TP.d" -MT"Core/Src/bmm150TP.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/bmm150TP.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/i2c.d" -MT"Core/Src/i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/i2c.o"
+arm-none-eabi-gcc "../Core/Src/led.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/led.d" -MT"Core/Src/led.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/led.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/mesure_consommation_courant.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/mesure_consommation_courant.d" -MT"Core/Src/mesure_consommation_courant.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mesure_consommation_courant.o"
+arm-none-eabi-gcc "../Core/Src/spi.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/spi.d" -MT"Core/Src/spi.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/spi.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l4xx_hal_msp.d" -MT"Core/Src/stm32l4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_hal_timebase_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l4xx_hal_timebase_tim.d" -MT"Core/Src/stm32l4xx_hal_timebase_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_hal_timebase_tim.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l4xx_it.d" -MT"Core/Src/stm32l4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_it.o"
+../Core/Src/bmm150TP.c: In function 'readOneRegister':
+../Core/Src/bmm150TP.c:36:17: warning: unused variable 'dataToSend' [-Wunused-variable]
+   36 |         uint8_t dataToSend=adress;                      // A modifier : le MSB de l'adresse doit forcément valoir 1.
+      |                 ^~~~~~~~~~
+../Core/Src/bmm150TP.c: In function 'readManyRegister':
+../Core/Src/bmm150TP.c:46:17: warning: unused variable 'dataToSend' [-Wunused-variable]
+   46 |         uint8_t dataToSend=adress;                      // A modifier : le MSB de l'adresse doit forcément valoir 1.
+      |                 ^~~~~~~~~~
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+../Core/Src/mesure_consommation_courant.c: In function 'loop':
+../Core/Src/mesure_consommation_courant.c:19:32: warning: passing argument 1 of 'HAL_PWR_EnterSLEEPMode' makes integer from pointer without a cast [-Wint-conversion]
+   19 |         HAL_PWR_EnterSLEEPMode(NULL,PWR_SLEEPENTRY_WFI);
+      |                                ^~~~
+      |                                |
+      |                                void *
+In file included from ../Core/Inc/stm32l4xx_hal_conf.h:398,
+                 from ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/mesure_consommation_courant.c:7:
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h:378:38: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'void *'
+  378 | void HAL_PWR_EnterSLEEPMode(uint32_t Regulator, uint8_t SLEEPEntry);
+      |                             ~~~~~~~~~^~~~~~~~~
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32l4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32l4xx.d" -MT"Core/Src/system_stm32l4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32l4xx.o"
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usart.o"
+arm-none-eabi-gcc -o "TP5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP5\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP5.elf
+ 
+arm-none-eabi-size  TP5.elf 
+arm-none-eabi-objdump -h -S TP5.elf  > "TP5.list"
+   text	   data	    bss	    dec	    hex	filename
+  34816	    200	   2768	  37784	   9398	TP5.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP5.list
+ 
+14:06:26 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-size  TP5.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34816	    200	   2768	  37784	   9398	TP5.elf
+Finished building: default.size.stdout
+ 
+14:46:17 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-gcc -o "TP5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP5\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP5.elf
+ 
+arm-none-eabi-size  TP5.elf 
+arm-none-eabi-objdump -h -S TP5.elf  > "TP5.list"
+   text	   data	    bss	    dec	    hex	filename
+  50968	    564	   2772	  54304	   d420	TP5.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP5.list
+ 
+14:48:36 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TP5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP5\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP5.elf
+ 
+arm-none-eabi-size  TP5.elf 
+arm-none-eabi-objdump -h -S TP5.elf  > "TP5.list"
+   text	   data	    bss	    dec	    hex	filename
+  51736	    564	   2772	  55072	   d720	TP5.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP5.list
+ 
+14:49:30 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-size  TP5.elf 
+   text	   data	    bss	    dec	    hex	filename
+  51736	    564	   2772	  55072	   d720	TP5.elf
+Finished building: default.size.stdout
+ 
+15:05:07 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/mesure_consommation_courant.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/mesure_consommation_courant.d" -MT"Core/Src/mesure_consommation_courant.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mesure_consommation_courant.o"
+arm-none-eabi-gcc -o "TP5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP5\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP5.elf
+ 
+arm-none-eabi-size  TP5.elf 
+arm-none-eabi-objdump -h -S TP5.elf  > "TP5.list"
+   text	   data	    bss	    dec	    hex	filename
+  51488	    564	   2772	  54824	   d628	TP5.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP5.list
+ 
+15:50:15 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/mesure_consommation_courant.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/mesure_consommation_courant.d" -MT"Core/Src/mesure_consommation_courant.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mesure_consommation_courant.o"
+../Core/Src/mesure_consommation_courant.c: In function 'loop':
+../Core/Src/mesure_consommation_courant.c:19:32: warning: passing argument 1 of 'HAL_PWR_EnterSLEEPMode' makes integer from pointer without a cast [-Wint-conversion]
+   19 |         HAL_PWR_EnterSLEEPMode(NULL,PWR_SLEEPENTRY_WFI);
+      |                                ^~~~
+      |                                |
+      |                                void *
+In file included from ../Core/Inc/stm32l4xx_hal_conf.h:398,
+                 from ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/mesure_consommation_courant.c:7:
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h:378:38: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'void *'
+  378 | void HAL_PWR_EnterSLEEPMode(uint32_t Regulator, uint8_t SLEEPEntry);
+      |                             ~~~~~~~~~^~~~~~~~~
+arm-none-eabi-gcc -o "TP5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP5\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP5.elf
+ 
+arm-none-eabi-size  TP5.elf 
+arm-none-eabi-objdump -h -S TP5.elf  > "TP5.list"
+   text	   data	    bss	    dec	    hex	filename
+  51736	    564	   2772	  55072	   d720	TP5.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP5.list
+ 
+16:37:18 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/bmm150TP.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/bmm150TP.d" -MT"Core/Src/bmm150TP.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/bmm150TP.o"
+arm-none-eabi-gcc "../Core/Src/mesure_consommation_courant.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/mesure_consommation_courant.d" -MT"Core/Src/mesure_consommation_courant.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mesure_consommation_courant.o"
+../Core/Src/bmm150TP.c: In function 'readManyRegister':
+../Core/Src/bmm150TP.c:57:17: warning: unused variable 'dataToSend' [-Wunused-variable]
+   57 |         uint8_t dataToSend=adress;                      // A modifier : le MSB de l'adresse doit forcément valoir 1.
+      |                 ^~~~~~~~~~
+../Core/Src/mesure_consommation_courant.c: In function 'setup':
+../Core/Src/mesure_consommation_courant.c:17:27: error: 'hspi2' undeclared (first use in this function)
+   17 |         initDriverBMM150(&hspi2);
+      |                           ^~~~~
+../Core/Src/mesure_consommation_courant.c:17:27: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/mesure_consommation_courant.c: In function 'loop':
+../Core/Src/mesure_consommation_courant.c:21:32: warning: passing argument 1 of 'HAL_PWR_EnterSLEEPMode' makes integer from pointer without a cast [-Wint-conversion]
+   21 |         HAL_PWR_EnterSLEEPMode(NULL,PWR_SLEEPENTRY_WFI);
+      |                                ^~~~
+      |                                |
+      |                                void *
+In file included from ../Core/Inc/stm32l4xx_hal_conf.h:398,
+                 from ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/mesure_consommation_courant.c:7:
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h:378:38: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'void *'
+  378 | void HAL_PWR_EnterSLEEPMode(uint32_t Regulator, uint8_t SLEEPEntry);
+      |                             ~~~~~~~~~^~~~~~~~~
+make: *** [Core/Src/subdir.mk:64: Core/Src/mesure_consommation_courant.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+16:40:03 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/mesure_consommation_courant.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/mesure_consommation_courant.d" -MT"Core/Src/mesure_consommation_courant.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mesure_consommation_courant.o"
+../Core/Src/mesure_consommation_courant.c: In function 'loop':
+../Core/Src/mesure_consommation_courant.c:21:32: warning: passing argument 1 of 'HAL_PWR_EnterSLEEPMode' makes integer from pointer without a cast [-Wint-conversion]
+   21 |         HAL_PWR_EnterSLEEPMode(NULL,PWR_SLEEPENTRY_WFI);
+      |                                ^~~~
+      |                                |
+      |                                void *
+In file included from ../Core/Inc/stm32l4xx_hal_conf.h:398,
+                 from ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/mesure_consommation_courant.c:7:
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h:378:38: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'void *'
+  378 | void HAL_PWR_EnterSLEEPMode(uint32_t Regulator, uint8_t SLEEPEntry);
+      |                             ~~~~~~~~~^~~~~~~~~
+arm-none-eabi-gcc -o "TP5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP5\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP5.elf
+ 
+arm-none-eabi-size  TP5.elf 
+arm-none-eabi-objdump -h -S TP5.elf  > "TP5.list"
+   text	   data	    bss	    dec	    hex	filename
+  55456	    564	   2780	  58800	   e5b0	TP5.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP5.list
+ 
+16:41:38 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/mesure_consommation_courant.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/mesure_consommation_courant.d" -MT"Core/Src/mesure_consommation_courant.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mesure_consommation_courant.o"
+../Core/Src/mesure_consommation_courant.c: In function 'loop':
+../Core/Src/mesure_consommation_courant.c:21:32: warning: passing argument 1 of 'HAL_PWR_EnterSLEEPMode' makes integer from pointer without a cast [-Wint-conversion]
+   21 |         HAL_PWR_EnterSLEEPMode(NULL,PWR_SLEEPENTRY_WFI);
+      |                                ^~~~
+      |                                |
+      |                                void *
+In file included from ../Core/Inc/stm32l4xx_hal_conf.h:398,
+                 from ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/mesure_consommation_courant.c:7:
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h:378:38: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'void *'
+  378 | void HAL_PWR_EnterSLEEPMode(uint32_t Regulator, uint8_t SLEEPEntry);
+      |                             ~~~~~~~~~^~~~~~~~~
+arm-none-eabi-gcc -o "TP5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP5\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP5.elf
+ 
+arm-none-eabi-size  TP5.elf 
+arm-none-eabi-objdump -h -S TP5.elf  > "TP5.list"
+   text	   data	    bss	    dec	    hex	filename
+  55232	    564	   2780	  58576	   e4d0	TP5.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP5.list
+ 
+16:47:01 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/bmm150TP.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/bmm150TP.d" -MT"Core/Src/bmm150TP.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/bmm150TP.o"
+arm-none-eabi-gcc "../Core/Src/mesure_consommation_courant.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/mesure_consommation_courant.d" -MT"Core/Src/mesure_consommation_courant.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mesure_consommation_courant.o"
+arm-none-eabi-gcc -o "TP5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP5\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP5.elf
+ 
+arm-none-eabi-size  TP5.elf 
+arm-none-eabi-objdump -h -S TP5.elf  > "TP5.list"
+   text	   data	    bss	    dec	    hex	filename
+  55232	    564	   2780	  58576	   e4d0	TP5.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP5.list
+ 
+16:47:45 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/mesure_consommation_courant.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/mesure_consommation_courant.d" -MT"Core/Src/mesure_consommation_courant.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mesure_consommation_courant.o"
+arm-none-eabi-gcc -o "TP5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP5\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP5.elf
+ 
+arm-none-eabi-size  TP5.elf 
+arm-none-eabi-objdump -h -S TP5.elf  > "TP5.list"
+   text	   data	    bss	    dec	    hex	filename
+  54984	    564	   2780	  58328	   e3d8	TP5.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP5.list
+ 
+16:49:32 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/mesure_consommation_courant.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/mesure_consommation_courant.d" -MT"Core/Src/mesure_consommation_courant.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mesure_consommation_courant.o"
+arm-none-eabi-gcc -o "TP5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP5\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP5.elf
+ 
+arm-none-eabi-size  TP5.elf 
+arm-none-eabi-objdump -h -S TP5.elf  > "TP5.list"
+   text	   data	    bss	    dec	    hex	filename
+  57208	    564	   2780	  60552	   ec88	TP5.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP5.list
+ 
+16:52:59 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/mesure_consommation_courant.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/mesure_consommation_courant.d" -MT"Core/Src/mesure_consommation_courant.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mesure_consommation_courant.o"
+arm-none-eabi-gcc -o "TP5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP5\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP5.elf
+ 
+arm-none-eabi-size  TP5.elf 
+arm-none-eabi-objdump -h -S TP5.elf  > "TP5.list"
+   text	   data	    bss	    dec	    hex	filename
+  57616	    564	   2780	  60960	   ee20	TP5.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP5.list
+ 
+16:53:34 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/bmm150TP.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/bmm150TP.d" -MT"Core/Src/bmm150TP.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/bmm150TP.o"
+arm-none-eabi-gcc -o "TP5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP5\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP5.elf
+ 
+arm-none-eabi-size  TP5.elf 
+arm-none-eabi-objdump -h -S TP5.elf  > "TP5.list"
+   text	   data	    bss	    dec	    hex	filename
+  57616	    564	   2780	  60960	   ee20	TP5.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP5.list
+ 
+16:53:57 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/mesure_consommation_courant.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/mesure_consommation_courant.d" -MT"Core/Src/mesure_consommation_courant.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mesure_consommation_courant.o"
+arm-none-eabi-gcc -o "TP5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP5\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP5.elf
+ 
+arm-none-eabi-size  TP5.elf 
+arm-none-eabi-objdump -h -S TP5.elf  > "TP5.list"
+   text	   data	    bss	    dec	    hex	filename
+  57208	    564	   2780	  60552	   ec88	TP5.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP5.list
+ 
+16:56:59 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/bmm150TP.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/bmm150TP.d" -MT"Core/Src/bmm150TP.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/bmm150TP.o"
+arm-none-eabi-gcc -o "TP5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP5\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP5.elf
+ 
+arm-none-eabi-size  TP5.elf 
+arm-none-eabi-objdump -h -S TP5.elf  > "TP5.list"
+   text	   data	    bss	    dec	    hex	filename
+  57352	    564	   2780	  60696	   ed18	TP5.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP5.list
+ 
+16:58:04 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-size  TP5.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57352	    564	   2780	  60696	   ed18	TP5.elf
+Finished building: default.size.stdout
+ 
+17:01:22 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/bmm150TP.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/bmm150TP.d" -MT"Core/Src/bmm150TP.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/bmm150TP.o"
+arm-none-eabi-gcc -o "TP5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP5\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP5.elf
+ 
+arm-none-eabi-size  TP5.elf 
+arm-none-eabi-objdump -h -S TP5.elf  > "TP5.list"
+   text	   data	    bss	    dec	    hex	filename
+  57208	    564	   2780	  60552	   ec88	TP5.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP5.list
+ 
+17:02:51 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-size  TP5.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57208	    564	   2780	  60552	   ec88	TP5.elf
+Finished building: default.size.stdout
+ 
+17:04:00 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/bmm150TP.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/bmm150TP.d" -MT"Core/Src/bmm150TP.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/bmm150TP.o"
+../Core/Src/bmm150TP.c: In function 'readAngle':
+../Core/Src/bmm150TP.c:109:49: error: 'dataBuffer' undeclared (first use in this function)
+  109 |         readManyRegister(X_REGISTER_LSB_ADRESS, dataBuffer, 6);
+      |                                                 ^~~~~~~~~~
+../Core/Src/bmm150TP.c:109:49: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/bmm150TP.c: At top level:
+../Core/Src/bmm150TP.c:129:1: error: expected identifier or '(' before '}' token
+  129 | }
+      | ^
+make: *** [Core/Src/subdir.mk:64: Core/Src/bmm150TP.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+17:04:16 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/bmm150TP.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/bmm150TP.d" -MT"Core/Src/bmm150TP.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/bmm150TP.o"
+../Core/Src/bmm150TP.c: In function 'readAngle':
+../Core/Src/bmm150TP.c:109:41: error: 'dataBuffer' undeclared (first use in this function)
+  109 | readManyRegister(X_REGISTER_LSB_ADRESS, dataBuffer, 6);
+      |                                         ^~~~~~~~~~
+../Core/Src/bmm150TP.c:109:41: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:64: Core/Src/bmm150TP.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+17:05:03 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/bmm150TP.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/bmm150TP.d" -MT"Core/Src/bmm150TP.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/bmm150TP.o"
+../Core/Src/bmm150TP.c: In function 'readAngle':
+../Core/Src/bmm150TP.c:111:17: error: redefinition of 'xMagnitude'
+  111 |         int16_t xMagnitude = dataBuffer[1];
+      |                 ^~~~~~~~~~
+../Core/Src/bmm150TP.c:102:17: note: previous definition of 'xMagnitude' with type 'int16_t' {aka 'short int'}
+  102 |         int16_t xMagnitude=dataBuffer[1];
+      |                 ^~~~~~~~~~
+../Core/Src/bmm150TP.c:112:17: error: redefinition of 'yMagnitude'
+  112 |         int16_t yMagnitude = dataBuffer[3];
+      |                 ^~~~~~~~~~
+../Core/Src/bmm150TP.c:103:17: note: previous definition of 'yMagnitude' with type 'int16_t' {aka 'short int'}
+  103 |         int16_t yMagnitude=dataBuffer[3];
+      |                 ^~~~~~~~~~
+../Core/Src/bmm150TP.c:115:15: error: redefinition of 'magnitude'
+  115 |         float magnitude = sqrt((xMagnitude*xMagnitude) + (yMagnitude*yMagnitude));
+      |               ^~~~~~~~~
+../Core/Src/bmm150TP.c:104:15: note: previous definition of 'magnitude' with type 'float'
+  104 |         float magnitude=sqrt((xMagnitude*xMagnitude)+(yMagnitude*yMagnitude));
+      |               ^~~~~~~~~
+../Core/Src/bmm150TP.c:125:15: error: redefinition of 'angle'
+  125 |         float angle = acos((float)(xMagnitude / magnitude));
+      |               ^~~~~
+../Core/Src/bmm150TP.c:105:15: note: previous definition of 'angle' with type 'float'
+  105 |         float angle=acos((float)(xMagnitude/magnitude));
+      |               ^~~~~
+make: *** [Core/Src/subdir.mk:64: Core/Src/bmm150TP.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+17:05:47 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/bmm150TP.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/bmm150TP.d" -MT"Core/Src/bmm150TP.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/bmm150TP.o"
+arm-none-eabi-gcc -o "TP5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP5\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP5.elf
+ 
+arm-none-eabi-size  TP5.elf 
+arm-none-eabi-objdump -h -S TP5.elf  > "TP5.list"
+   text	   data	    bss	    dec	    hex	filename
+  57232	    564	   2780	  60576	   eca0	TP5.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP5.list
+ 
+17:06:48 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/bmm150TP.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/bmm150TP.d" -MT"Core/Src/bmm150TP.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/bmm150TP.o"
+arm-none-eabi-gcc -o "TP5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TP5\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TP5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TP5.elf
+ 
+arm-none-eabi-size  TP5.elf 
+arm-none-eabi-objdump -h -S TP5.elf  > "TP5.list"
+   text	   data	    bss	    dec	    hex	filename
+  57208	    564	   2780	  60552	   ec88	TP5.elf
+Finished building: default.size.stdout
+ 
+Finished building: TP5.list
+ 
+17:09:23 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-size  TP5.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57208	    564	   2780	  60552	   ec88	TP5.elf
+Finished building: default.size.stdout
+ 
+17:10:03 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-size  TP5.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57208	    564	   2780	  60552	   ec88	TP5.elf
+Finished building: default.size.stdout
+ 
+17:12:32 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-size  TP5.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57208	    564	   2780	  60552	   ec88	TP5.elf
+Finished building: default.size.stdout
+ 
+17:12:59 **** Incremental Build of configuration Debug for project TP5 ****
+make -j16 all 
+arm-none-eabi-size  TP5.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57208	    564	   2780	  60552	   ec88	TP5.elf
+Finished building: default.size.stdout
+ 

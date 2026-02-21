@@ -1,0 +1,14 @@
+17:34:46 **** Incremental Build of configuration Debug for project TP4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/encoder.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/encoder.d" -MT"Core/Src/encoder.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/encoder.o"
+../Core/Src/encoder.c: In function 'loop':
+../Core/Src/encoder.c:69:26: error: 'buffer2' undeclared (first use in this function); did you mean 'buffer1'?
+   69 |                 snprintf(buffer2, 30, "%f tr/min", get_rpm());
+      |                          ^~~~~~~
+      |                          buffer1
+../Core/Src/encoder.c:69:26: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:70: Core/Src/encoder.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+
+17:34:48 Build Failed. 2 errors, 0 warnings. (took 1s.716ms)
+

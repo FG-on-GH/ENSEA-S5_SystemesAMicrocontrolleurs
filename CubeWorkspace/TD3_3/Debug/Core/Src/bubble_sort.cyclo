@@ -1,0 +1,4 @@
+../Core/Src/bubble_sort.c:15:6:tri_à_bulles	4
+../Core/Src/bubble_sort.c:27:6:displayArray	2
+../Core/Src/bubble_sort.c:37:6:setup	1
+../Core/Src/bubble_sort.c:44:6:loop	3

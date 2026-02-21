@@ -1,0 +1,5 @@
+../Core/Src/led.c:18:6:LED_Set_Value_With_Int	24	static
+../Core/Src/led.c:24:6:LED_Set_Value_With_Array	24	static
+../Core/Src/led.c:30:5:LED_Get_Value	16	static
+../Core/Src/led.c:38:6:LED_Update	24	static
+../Core/Src/led.c:44:6:LED_Test_All	8	static

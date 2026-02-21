@@ -1,0 +1,13 @@
+../Core/Src/utils.c:25:5:fillBuffer	32	static
+../Core/Src/utils.c:58:5:isGPGGA	32	static
+../Core/Src/utils.c:70:5:extractChecksum	16	static
+../Core/Src/utils.c:77:5:calculateChecksum	24	static
+../Core/Src/utils.c:87:5:checkFrame	24	static
+../Core/Src/utils.c:102:5:find_coma	32	static
+../Core/Src/utils.c:113:7:getLatitude	40	static
+../Core/Src/utils.c:136:7:getLongitude	40	static
+../Core/Src/utils.c:181:7:norme	40	static
+../Core/Src/utils.c:193:5:getMinIndex	24	static
+../Core/Src/utils.c:203:8:findNearest	64	dynamic
+../Core/Src/utils.c:217:6:setup	8	static
+../Core/Src/utils.c:228:6:loop	40	static

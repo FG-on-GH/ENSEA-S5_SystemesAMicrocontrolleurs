@@ -1,0 +1,8 @@
+../Core/Src/insert_sort.c:13:6:displayArray	24	static
+../Core/Src/insert_sort.c:22:5:getMinPosition	32	static
+../Core/Src/insert_sort.c:37:6:sortArray	4128	static
+../Core/Src/insert_sort.c:46:6:tri_à_bulles	32	static
+../Core/Src/insert_sort.c:58:6:tri_insertion	32	static
+../Core/Src/insert_sort.c:70:6:interresting_function	4120	static
+../Core/Src/insert_sort.c:106:6:setup	8	static
+../Core/Src/insert_sort.c:116:6:loop	8	static

@@ -1,0 +1,6 @@
+../Core/Src/random_mean.c:14:6:displayArray	24	static
+../Core/Src/random_mean.c:23:6:caracArray	40	static
+../Core/Src/random_mean.c:43:6:dispCaracArray	32	static
+../Core/Src/random_mean.c:47:6:interresting_function	64	static
+../Core/Src/random_mean.c:60:6:setup	8	static
+../Core/Src/random_mean.c:70:6:loop	8	static

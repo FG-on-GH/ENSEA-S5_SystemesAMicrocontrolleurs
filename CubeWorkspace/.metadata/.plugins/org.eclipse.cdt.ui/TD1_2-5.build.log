@@ -1,0 +1,17 @@
+16:13:48 **** Incremental Build of configuration Debug for project TD1_2-5 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+arm-none-eabi-gcc -o "TD1_2-5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\franc\OneDrive - ENSEA\S5\Systèmes à Microcontrolleurs\STM Workspace\TD1_2-5\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TD1_2-5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TD1_2-5.elf
+ 
+arm-none-eabi-size  TD1_2-5.elf 
+arm-none-eabi-objdump -h -S TD1_2-5.elf  > "TD1_2-5.list"
+   text	   data	    bss	    dec	    hex	filename
+  27656	    468	   2044	  30168	   75d8	TD1_2-5.elf
+Finished building: default.size.stdout
+ 
+Finished building: TD1_2-5.list
+ 
+
+16:13:50 Build Finished. 0 errors, 0 warnings. (took 2s.403ms)
+

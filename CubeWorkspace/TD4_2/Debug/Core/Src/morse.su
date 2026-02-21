@@ -1,0 +1,4 @@
+../Core/Src/morse.c:29:6:lookupInBaseFromCode	24	static
+../Core/Src/morse.c:38:7:lookupInBaseFromLetter	24	static
+../Core/Src/morse.c:47:6:setup	8	static
+../Core/Src/morse.c:52:6:loop	16	static

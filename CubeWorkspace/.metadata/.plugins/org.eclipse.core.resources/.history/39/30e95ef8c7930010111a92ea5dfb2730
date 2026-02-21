@@ -1,0 +1,25 @@
+/*
+ * utils.c
+ *
+ *  Created on: Sep 17, 2025
+ *      Author: FG
+ */
+
+
+#include <stm32l4xx_hal.h>
+#include "utils.h"
+
+#define GPIO_PORT_LED GPIO_PORT_A
+#define GPIO_PIN_LED GPIO_PIN_5
+
+void setup(){
+	// Insert the setup code here, it will run once.
+}
+
+void loop(){
+	// This code will run indefinitely.
+	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
+	HAL_Delay(250);
+	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
+	HAL_Delay(250);
+}

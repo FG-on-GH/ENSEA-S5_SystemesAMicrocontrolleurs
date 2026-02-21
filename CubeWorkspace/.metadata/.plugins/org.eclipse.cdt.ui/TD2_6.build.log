@@ -1,0 +1,10 @@
+16:00:10 **** Incremental Build of configuration Debug for project TD2_6 ****
+make -j16 all 
+arm-none-eabi-size  TD2_6.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21044	    104	   2040	  23188	   5a94	TD2_6.elf
+Finished building: default.size.stdout
+ 
+
+16:00:11 Build Finished. 0 errors, 0 warnings. (took 979ms)
+

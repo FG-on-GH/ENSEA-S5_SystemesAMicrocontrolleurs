@@ -1,0 +1,6 @@
+../Core/Src/sensor.c:14:6:init_system	24	static
+../Core/Src/sensor.c:23:6:display_system	40	static
+../Core/Src/sensor.c:35:6:read_sensors	24	static
+../Core/Src/sensor.c:41:6:check_threshold	24	static
+../Core/Src/sensor.c:56:6:setup	8	static
+../Core/Src/sensor.c:67:6:loop	8	static
